@@ -2,17 +2,18 @@
 
   /**  Отступы  */
   --gap-xl: 20px;
-  --gap-l: 15px;
+  --gap-l: 0px;
 
-  --padding-block: 20px;
-  --padding-inline: 20px;
+  --padding-block: 0px;
+  --padding-inline: 0px;
 
   /**  Скругления углов  */
   --border-radius-default: 20px;
 
   /**  Основные цвета */
-  --main-color: #e3e3e3;
-
+  --main-color-white: white;
+  --main-color-oran-svetl: #FFF3E3;
+  --main-color-oran-temn: #B88E2F;
   /**  Шрифты */
   --font-family-title: "Open Sans";
 }

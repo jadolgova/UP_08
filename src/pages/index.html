@@ -9,21 +9,53 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Карточки</h1>
+@@include('../components/_header.html')
+<section class="section_preview">
+    <div class="pramoug_block1">
+        <h4>New Arrival</h4>
+        <h1>Discover Our <br> New Collection</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
+        @@include('./_button.html',{
+        "padding-x": "50px",
+        "padding-y": "50px",
+        "border-radius": "0",
+        "title": "BUY Now",
+        "color": "var(--main-color-oran-temn)",
+        "font-size":"0px"
+        })
+    </div>
+</section>
 
-@@include('../components/_card.html', {
-"img": "./assets/images/cat1",
-"alt": "Изображение 1",
-"title": "Заголовок 1",
-"text": "Текст описания карточки 1"
-})
+<!--@@include('../components/_block1.html')-->
+<!--@@include('../components/_button.html')-->
+<!--@@include('../components/_card.html', {-->
+<!--"img": "./assets/images/логотип1",-->
+<!--"alt": "Изображение 1",-->
+<!--"title": "Заголовок 1",-->
+<!--"text": "Текст описания карточки 1"-->
+<!--})-->
 
-@@include('../components/_card.html', {
-"img": "./assets/images/cat1",
-"alt": "Изображение 2",
-"title": "Заголовок 2",
-"text": "Текст описания карточки 2"
-})
+<!--@@include('../components/_card.html', {-->
+<!--"img": "./assets/images/логотип1",-->
+<!--"alt": "Изображение 2",-->
+<!--"title": "Заголовок 2",-->
+<!--"text": "Текст описания карточки 2"-->
+<!--})-->
 
+<!--@@include('../components/_header.html', {-->
+<!--"img": "./assets/images/логотип1",-->
+<!--"alt": "Изображение 2",-->
+<!--"title": "Заголовок 2",-->
+<!--"text": "Текст описания карточки 2"-->
+<!--})-->
+
+<!--        @@include('./_button.html',-->
+<!--        "padding-x":"50px"-->
+<!--        "padding-y":"50px"-->
+<!--        "border-radius":"0px"-->
+<!--        "title":"BUY Now"-->
+<!--        "color:""-->
+<!--        "font-size:"0px"-->
+<!--        )-->
 </body>
 </html>

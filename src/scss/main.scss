@@ -12,6 +12,9 @@
 // ==== 4. Components ====
 @use 'components/button';
 @use 'components/card';
+@use 'components/header';
+
+@use 'pages/index';
 
 body {
   background-color: var(--main-color);
