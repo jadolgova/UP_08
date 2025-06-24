@@ -13,9 +13,11 @@
 @use 'components/button';
 @use 'components/card';
 @use 'components/header';
+@use 'components/cartochka';
 
 @use 'pages/index';
 
 body {
   background-color: var(--main-color);
+  font-family: poppins;
 }
