@@ -27,40 +27,218 @@
     "color": "var(--main-color-oran-temn)",
     "font-size":"0px",
     "border": "none",
-    "color_text": "white"
+    "color_text": "white",
+    "font-size": "16px",
+    "font-weight": "",
     })
 </div>
 
     </div>
 </section>
-<section class="block_cartochka">
+<section class="block_cartochki">
     <h1 class="zagolovok_cart">Browse The Range</h1>
-    <h4 class="podtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+    <p class="podtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 <div class="cartochki">
-    <div class="cartochka">
         @@include('../components/_cartochka.html', {
         "img": "./assets/images/cartochka",
         "alt": "Изображение 1",
         "title": "Dining",
         })
-    </div>
-    <div class="cartochka_two">
+
         @@include('../components/_cartochka.html', {
         "img": "./assets/images/cartone",
         "alt": "Изображение 1",
         "title": "Living",
         })
-    </div>
-    <div class="cartochka_three">
+
         @@include('../components/_cartochka.html', {
         "img": "./assets/images/cart_two",
         "alt": "Изображение 1",
         "title": "Bedroom",
         })
-    </div>
 </div>
 </section>
-
+<section class="block_cart_products">
+    <h1 class="gl_text">Our Products</h1>
+        <div class="cart_prod_one_str">
+            @@include('../components/_carttochki-our-products.html', {
+            "img": "./assets/images/syltherine",
+            "title": "Syltherine",
+            "text": "Stylish cafe chair",
+            "stoim-sk": "Rp 2.500.000",
+            "stoim-pr": "Rp 3.500.000",
+            "background-color": "var(--main-color-red-sv)",
+            "skidka":"-30%",
+            })
+            @@include('../components/_carttochki-our-products.html', {
+            "img": "./assets/images/leviosa",
+            "title": "Leviosa",
+            "text": "Stylish cafe chair",
+            "stoim-sk": "Rp 2.500.000",
+            "stoim-pr": "",
+            "background-color": "",
+            "skidka":"",
+            })
+            @@include('../components/_carttochki-our-products.html', {
+            "img": "./assets/images/lolito",
+            "title": "Lolito",
+            "text": "Luxury big sofa",
+            "stoim-sk": "Rp 7.000.000",
+            "stoim-pr": "Rp 14.000.000",
+            "background-color": "var(--main-color-red-sv)",
+            "skidka":"-50%",
+            })
+            @@include('../components/_carttochki-our-products.html', {
+            "img": "./assets/images/respira",
+            "title": "Respira",
+            "text": "Outdoor bar table and stool",
+            "stoim-sk": "Rp 500.000",
+            "stoim-pr": "",
+            "background-color": "var(--main-color-green-sv)",
+            "skidka":"New",
+            })
+        </div>
+        <div class="cart_prod_two_str">
+            @@include('../components/_carttochki-our-products.html', {
+            "img": "./assets/images/Grifo",
+            "title": "Grifo",
+            "text": "Night lamp",
+            "stoim-sk": "Rp 1.500.000",
+            "stoim-pr": "",
+            "background-color": "",
+            "skidka":"",
+            })
+            @@include('../components/_carttochki-our-products.html', {
+            "img": "./assets/images/muggo",
+            "title": "Muggo",
+            "text": "Small mug",
+            "stoim-sk": "Rp 150.000",
+            "stoim-pr": "",
+            "background-color": "var(--main-color-green-sv)",
+            "skidka":"New",
+            })
+            @@include('../components/_carttochki-our-products.html', {
+            "img": "./assets/images/pingky",
+            "title": "Pingky",
+            "text": "Cute bed set",
+            "stoim-sk": "Rp 7.000.000",
+            "stoim-pr": "Rp 14.000.000",
+            "background-color": "var(--main-color-red-sv)",
+            "skidka":"-50%",
+            })
+            @@include('../components/_carttochki-our-products.html', {
+            "img": "./assets/images/potty",
+            "title": "Potty",
+            "text": "Stylish cafe chair",
+            "stoim-sk": "Rp 500.000",
+            "stoim-pr": "",
+            "background-color": "var(--main-color-green-sv)",
+            "skidka":"New",
+            })
+        </div>
+    <div class="btn_two">
+        @@include('./_button.html',{
+        "padding-x": "80px",
+        "padding-y": "20px",
+        "border-radius": "0",
+        "title": "Show More",
+        "color": "white",
+        "font-size":"0px",
+        "border": "solid 1px var(--main-color-oran-temn)",
+        "color_text": "var(--main-color-oran-temn)",
+        "font-size": "16px",
+        "font-weight": "bold",
+        })
+    </div>
+</section>
+.<section class="beautiful_rooms">
+    <div class="block_text">
+        <h1 class="zagolovok_block_text">50+ Beautiful rooms <br>
+            inspiration</h1>
+        <p class="osn_text_block_text">Our designer already made a lot of beautiful <br> prototipe of rooms that inspire you</p>
+        <div class="btn_three">
+            @@include('./_button.html',{
+            "padding-x": "50px",
+            "padding-y": "15px",
+            "border-radius": "0",
+            "title": "Explore More",
+            "color": "var(--main-color-oran-temn)",
+            "font-size":"0px",
+            "border": "none",
+            "color_text": "white",
+            "font-size": "16px",
+            "font-weight": "",
+            })
+        </div>
+    </div>
+    <div class="title_cart">
+        <img src="./assets/images/cartini.webp">
+        <div class="prozrachn_block">
+            <p class="text_block_title">01 — Bed Room</p>
+            <h1 class="zagolovok_title_cart">Inner Peace</h1>
+        </div>
+        <div class="corichn_block">
+            <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 7H1M19 7L13 1M19 7L13 13" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div class="varianti">
+        <img src="./assets/images/comnata.webp">
+        <img class="foto_var" src="./assets/images/comn.webp">
+        <div class="strelka">
+            <svg class="str" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.00006 5L16.0001 12L9.00006 19" stroke="#B88E2F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="perehod">
+            <svg class="gl_krug" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle opacity="0.7" cx="13.5" cy="13.5" r="13" stroke="#B88E2F"/>
+                <circle cx="13.5" cy="13.5" r="5" fill="#B88E2F" stroke="#B88E2F"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+        </div>
+    </div>
+</section>
+<section class="fotki">
+    <p class="text_fotki">Share your setup with</p>
+    <h1 class="zagolovok_fotki">#FuniroFurniture</h1>
+    <div class="fotki_cart">
+        <div class="fotki_one">
+            <div class="fotkii">
+                <img src="./assets/images/comnata1.webp" height="435" width="auto">
+                <img src="./assets/images/comnata2.webp" width="570" height="312">
+            </div>
+            <div class="fotkkii">
+                <img src="./assets/images/comnata6.webp" height="393" width="auto">
+                <img src="./assets/images/comnata7.webp" height="312" width="auto">
+            </div>
+        </div>
+        <div class="fotki_two">
+            <img class="fotka_comnata" src="./assets/images/comnata3.webp" height="432" width="auto">
+        </div>
+        <div class="fotki_three">
+            <div class="fotkii">
+                <img src="./assets/images/comnata4.webp" height="408" width="auto">
+                <img src="./assets/images/comnata5.webp" height="493" width="auto">
+            </div>
+            <div class="fotkkii">
+                <img src="./assets/images/comnata8.webp" height="312" width="auto">
+                <img src="./assets/images/comnata9.webp" height="266" width="auto">
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+@@include('../components/_footer.html')
 
 <!--@@include('../components/_card.html', {-->
 <!--"img": "./assets/images/логотип1",-->

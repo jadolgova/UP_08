@@ -1,0 +1,44 @@
+.cart_our_products{
+  height: 466px;
+  width: 285px;
+  background-color: var(--main-color-ser_sv);
+  .krug{
+    width: 48px;
+    height: 38px;
+    border-radius: 50px;
+    padding-top: 10px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    transform: translateY(-280px);
+    margin-left: 200px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .zagolovok_cart_products{
+    font-size: 24px;
+    margin-left: 10px;
+    transform: translateY(-50px);
+  }
+  .text_products{
+    font-size: 16px;
+    color: var(--main-color-ser);
+    margin-left: 10px;
+    transform: translateY(-60px);
+  }
+  .stoimost{
+    display: flex;
+    gap: 30px;
+    margin-left: 10px;
+    transform: translateY(-80px);
+    .st_skidka{
+      font-size: 20px;
+    }
+    .st_prezhn{
+      font-size: 16px;
+      color: var(--maim-color-ser_svetl);
+      text-decoration: line-through;
+      margin-top: 22px;
+    }
+  }
+}

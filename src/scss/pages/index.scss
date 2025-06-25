@@ -31,9 +31,161 @@
     }
   }
 }
-
+.zagolovok_cart{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 60px;
+}
+.podtext{
+  font-size: 20px;
+  text-align: center;
+  color: var(--main-color-ser);
+  margin-top: -30px;
+}
 .cartochki{
   display: flex;
   gap: 20px;
-  margin-left: 250px;
+  margin-left: 290px;
+}
+.cartochki{
+  margin-top: 30px;
+}
+.block_cart_products{
+  .gl_text{
+    font-size: 40px;
+    text-align: center;
+  }
+  .cart_prod_one_str{
+    display: flex;
+    gap: 90px;
+    margin-left: 150px;
+  }
+  .cart_prod_two_str{
+    display: flex;
+    gap: 90px;
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .btn_two{
+    margin-top: 60px;
+    margin-left: 730px;
+  }
+}
+.beautiful_rooms{
+  display: flex;
+  gap: 175px;
+  margin-left: 150px;
+  margin-top: 70px;
+  .zagolovok_block_text{
+    font-size: 40px;
+  }
+  .osn_text_block_text{
+    font-size: 16px;
+    color: #666666;
+    margin-top: -30px;
+  }
+  .btn_three{
+    margin-top: 20px;
+  }
+  .prozrachn_block{
+    width: 217px;
+    height: 130px;
+    background-color: white;
+    opacity: 80%;
+    position: relative;
+    display: inline-block;
+    margin-left: -368px;
+    transform: translateY(-70px);
+  }
+  .text_block_title{
+    font-size: 16px;
+    color: #666666;
+    margin-left: 15px;
+    margin-top: 33px;
+  }
+  .zagolovok_title_cart{
+    font-size: 28px;
+    margin-left: 15px;
+    margin-top: -16px;
+  }
+  .corichn_block{
+    width: 43px;
+    height: 28px;
+    background-color: #B88E2F;
+    text-align: center;
+    padding-top: 12px;
+    transform: translateY(-110px);
+    margin-left: 253px;
+  }
+  .foto_var{
+    margin-left: 60px;
+  }
+  .strelka{
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 5px 1px rgba(76, 75, 75, 0.67);
+    border-radius: 50px;
+    text-align: center;
+    transform: translateY(-220px);
+    margin-left: 360px;
+    .str{
+      transform: translateY(12px);
+    }
+  }
+  .perehod{
+    display: flex;
+    gap: 10px;
+    margin-top: 70px;
+    .gl_krug{
+      transform: translateY(-10px);
+    }
+  }
+}
+.fotki{
+  margin-top: 80px;
+  .text_fotki{
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+  }
+  .zagolovok_fotki{
+    font-size: 40px;
+    text-align: center;
+  }
+  .fotki_cart{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-80px);
+    .fotkii{
+      display: flex;
+      gap: 20px;
+      align-items: flex-end;
+    }
+    .fotkkii{
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .fotka_comnata{
+      margin-top: 70px;
+    }
+  }
+}
+footer{
+  .razdel{
+    width: 1500px;
+    height: 1px;
+    background: #cccccc;
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+  .text_foot{
+    font-size: 16px;
+    margin-left: 100px;
+  }
 }
