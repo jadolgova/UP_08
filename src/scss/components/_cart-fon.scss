@@ -1,0 +1,27 @@
+.fon{
+  background-image: url("./../images/fon_cart.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;        /* Масштабирует изображение с сохранением пропорций */
+  background-position: center;   /* Центрирует изображение */
+  height: 316px;
+  width: 1750px;
+  margin-bottom: 0;
+  .zagolovok{
+    text-align: center;
+    font-size: 48px;
+    transform: translateY(80px);
+  }
+  .perehod{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(60px);
+    .sl_one{
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}

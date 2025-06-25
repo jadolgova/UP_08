@@ -1,0 +1,42 @@
+.inform{
+  width: 1700px;
+  height: 270px;
+  background-color: #FFF3E3;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  .Quality{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    .gl_inf{
+      font-size: 22px;
+    }
+    .text_inform{
+      font-size: 16px;
+      color: #9F9F9F;
+      transform: translateY(-10px);
+    }
+  }
+  .Protection{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Shipping{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Support{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -16,8 +16,11 @@
 @use 'components/cartochka';
 @use 'components/carttochki-our-products';
 @use 'components/footer';
+@use 'components/cart-fon';
+@use 'components/informachia';
 
 @use 'pages/index';
+@use 'pages/shop';
 
 body {
   background-color: var(--main-color);

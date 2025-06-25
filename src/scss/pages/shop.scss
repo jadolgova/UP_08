@@ -1,0 +1,105 @@
+.block_filtr{
+  width: 1650px;
+  height: 100px;
+  background-color: #FFF3E3;
+  display: flex;
+  gap: 400px;
+  padding-left: 100px;
+  .block_filtr_one{
+    display: flex;
+    gap: 50px;
+    align-items: center; /* Вертикальное выравнивание (по центру) */
+    justify-content: flex-start;
+    .poloska{
+      width: 1px;
+      height: 37px;
+      background-color: black;
+    }
+    .Showing{
+      font-size: 16px;
+    }
+  }
+  .block_filter_two{
+    display: flex;
+    gap: 50px;
+    align-items: center; /* Вертикальное выравнивание (по центру) */
+    justify-content: flex-start;
+    font-size: 20px;
+    .sort {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    select {
+      padding: 10px 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: white;
+      cursor: pointer;
+      color: #666666;
+    }
+  }
+}
+.cart_shop{
+  margin-left: 150px;
+  margin-top: 30px;
+  .shop_cartochki{
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+  }
+  .knopki{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    .knopka_one{
+      width: 60px;
+      height: 60px;
+      background-color: #B88E2F;
+      color: white;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+    .knopka_two{
+      width: 60px;
+      height: 60px;
+      background-color: #FFF3E3;
+      color: black;
+      display: inline-flex;   /* или flex */
+      align-items: center;    /* вертикальное центрирование */
+      justify-content: center;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+    .knopka_three{
+      width: 60px;
+      height: 60px;
+      background-color: #FFF3E3;
+      color: black;
+      display: inline-flex;   /* или flex */
+      align-items: center;    /* вертикальное центрирование */
+      justify-content: center;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+    .knopka_four{
+      width: 120px;
+      height: 60px;
+      background-color: #FFF3E3;
+      color: black;
+      display: inline-flex;   /* или flex */
+      align-items: center;    /* вертикальное центрирование */
+      justify-content: center;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+  }
+}
+footer{
+  transform: translateY(-47px);
+}
