@@ -6,7 +6,7 @@
   background-size: cover;        /* Масштабирует изображение с сохранением пропорций */
   background-position: center;   /* Центрирует изображение */
   height: 316px;
-  width: 1710px;
+  width: 1700px;
   margin-bottom: 0;
   .zagolovok{
     text-align: center;
@@ -19,6 +19,10 @@
     justify-content: center;
     align-items: center;
     transform: translateY(60px);
+    a{
+      text-decoration: none;
+      color: black;
+    }
     .sl_one{
       font-size: 16px;
       font-weight: bold;

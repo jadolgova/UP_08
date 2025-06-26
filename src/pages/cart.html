@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <title>Practika</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+@@include('../components/_header.html')
+@@include('./_cart-fon.html',{
+"title": "Cart",
+"text": "Home",
+"text_two": "Cart",
+})
+<section class="cart">
+  <div class="cart_colon_lv">
+    <nav class="navig">
+      <p>Product</p>
+      <p>Price</p>
+      <p class="sl_two">Quantity</p>
+      <p>Subtotal</p>
+    </nav>
+    <div class="tovar_sofa">
+      <img src="./assets/images/sofa.webp">
+      <p class="asgaard_sofa">Asgaard sofa</p>
+      <p class="stoimost_sofa">Rs. 250,000.00</p>
+      <div class="quantity">1</div>
+      <p class="subtotal">Rs. 250,000.00</p>
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.625 7H20.125V4.8125C20.125 3.84727 19.3402 3.0625 18.375 3.0625H9.625C8.65977 3.0625 7.875 3.84727 7.875 4.8125V7H4.375C3.89102 7 3.5 7.39102 3.5 7.875V8.75C3.5 8.87031 3.59844 8.96875 3.71875 8.96875H5.37031L6.0457 23.2695C6.08945 24.202 6.86055 24.9375 7.79297 24.9375H20.207C21.1422 24.9375 21.9105 24.2047 21.9543 23.2695L22.6297 8.96875H24.2812C24.4016 8.96875 24.5 8.87031 24.5 8.75V7.875C24.5 7.39102 24.109 7 23.625 7ZM18.1562 7H9.84375V5.03125H18.1562V7Z" fill="#B88E2F"/>
+      </svg>
+    </div>
+  </div>
+  <div class="cart_colon_pr">
+    <h1 class="title_cart">Cart Totals</h1>
+    <div class="subtot">
+      <p class="subtotal">Subtotal</p>
+      <p class="subtotall">Rs. 250,000.00</p>
+  </div>
+    <div class="total">
+      <p class="total_subtotal">Total</p>
+      <p class="total_total">Rs. 250,000.00</p>
+  </div>
+    <div class="btn_tovar">
+      @@include('./_button.html',{
+      "padding-x": "50px",
+      "padding-y": "15px",
+      "border-radius": "10px",
+      "title": "Explore More",
+      "color": " #FFF3E3",
+      "font-size":"0px",
+      "border": "1px solid black",
+      "color_text": "black",
+      "font-size": "16px",
+      "font-weight": "",
+      })
+    </div>
+  </div>
+</section>
+@@include('../components/_informachia.html')
+<footer>
+  @@include('../components/_footer.html')
+</footer>
+</body>
+</html>

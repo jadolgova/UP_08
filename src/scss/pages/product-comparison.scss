@@ -49,7 +49,10 @@
   .colonka_cart {
     display: flex;
     gap: 170px;
-
+    a{
+      text-decoration: none;
+      color: black;
+    }
     .cart_one {
       line-height: 15px;
     }
@@ -125,7 +128,7 @@
     }
   }
 }
-.custom-border-table {
+.table {
   width: 100%;
   border-collapse: collapse;
   margin-left: 110px;
@@ -133,14 +136,14 @@
   max-width: 1200px;
   table-layout: fixed;
 }
-.custom-border-table th,
-.custom-border-table td {
+.table th,
+.table td {
   padding: 12px;
   padding-left: 150px;
   width: 33.33%;
   box-sizing: border-box;
 }
-.custom-border-table th {
+.table th {
   background-color: white;
   text-align: left;
   font-size: 28px;

@@ -23,6 +23,8 @@
 @use 'pages/shop';
 @use 'pages/asgaard';
 @use 'pages/product-comparison';
+@use 'pages/cart';
+@use 'pages/checkout';
 
 body {
   background-color: var(--main-color);

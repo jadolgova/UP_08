@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Practika</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+@@include('../components/_header.html')
+@@include('./_cart-fon.html',{
+"title": "Checkout",
+"text": "Home",
+"text_two": "Checkout",
+})
+    <div class="colonki">
+        <section class="colonka_one">
+                <h1 class="title_colonka_one">Billing details</h1>
+            <form>
+                <div class="name">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required class="firstName">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required class="lastName">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company Name <span class="optional">(Optional)</span></label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="country">Country / Region</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select a country</option>
+                        <option value="LK">Sri Lanka</option>
+                        <option value="US">United States</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="CA">Canada</option>
+                        <option value="AU">Australia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="street">Street address</label>
+                    <input type="text" id="street" name="street" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">Town / City</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="province">Province</label>
+                    <select id="province" name="province" required>
+                        <option value="select_prov">Select province</option>
+                        <option value="western" >Western Province</option>
+                        <option value="central">Central Province</option>
+                        <option value="southern">Southern Province</option>
+                        <option value="northern">Northern Province</option>
+                        <option value="eastern">Eastern Province</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="zip">ZIP code</label>
+                    <input type="text" id="zip" name="zip" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="info">Additional information</label>
+                    <textarea id="info" name="info" rows="4"></textarea>
+                </div>
+            </form>
+        </section>
+        <section class="colonka_two">
+            <div class="price_okonch">
+                <section class="product">
+                    <p class="gl_sl">Product</p>
+                    <p1 class="asgaard">Asgaard sofa</p1>
+                    <p1 class="mensh_text">X 1</p1>
+                    <p class="mensh_text">Subtotal</p>
+                    <p class="mensh_text_total">Total</p>
+                </section>
+                <section class="subtotaal">
+                    <p class="gl_sl">Subtotal</p>
+                    <p class="mensh_text">Rs. 250,000.00</p>
+                    <p class="mensh_text">Rs. 250,000.00</p>
+                    <p class="okonch_st">Rs. 250,000.00</p>
+                </section>
+            </div>
+            <div class="poloskaa"></div>
+            <div class="direct">
+                <div class="vibr_krug"></div>
+                <p class="directt">Direct Bank Transfer</p>
+            </div>
+            <p class="text_opis_ser">Make your payment directly into our bank account. Please use <br> your Order ID as the payment reference. Your order will not be <br>shipped until the funds have cleared in our account.</p>
+            <div class="direct">
+                <div class="ser_krug"></div>
+                <p class="ser_text">Direct Bank Transfer</p>
+            </div>
+            <div class="direct">
+                <div class="ser_krug"></div>
+                <p class="ser_text">Cash On Delivery</p>
+            </div>
+            <p class="text_opis">Your personal data will be used to support your experience <br> throughout this website, to manage access to your account, and <br> for other purposes described in our <b>privacy policy.</b></p>
+            <div class="btn_direct">
+            @@include('./_button.html',{
+            "padding-x": "70px",
+            "padding-y": "20px",
+            "border-radius": "15px",
+            "title": "Place order",
+            "color": "white",
+            "font-size":"0px",
+            "border": "1px solid black",
+            "color_text": "black",
+            "font-size": "16px",
+            "font-weight": "",
+            })
+            </div>
+        </section>
+    </div>
+@@include('../components/_informachia.html')
+<footer>
+    @@include('../components/_footer.html')
+</footer>
+</body>
+</html>

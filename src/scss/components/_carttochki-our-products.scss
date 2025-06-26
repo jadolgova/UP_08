@@ -47,7 +47,6 @@
   overflow: hidden;
 
   picture {
-    position: relative;
     display: block;
 
     &::after {
@@ -55,7 +54,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
+      width: 446px;
       height: 100%;
       background: rgba(0,0,0,0.5);
       opacity: 0;
@@ -73,15 +72,14 @@
     transition: opacity 0.3s ease;
     z-index: 2;
     text-align: center;
-    width: 100%;
+    width: 446px;
     padding: 0 20px;
 
     .add-to-cart {
-      background: white;
-      color: black;
+      background-color: white;
+      color: #B88E2F;
       border: none;
-      padding: 10px 25px;
-      border-radius: 4px;
+      padding: 10px 55px;
       font-weight: bold;
       cursor: pointer;
       margin-top: 10px;
@@ -91,7 +89,6 @@
       color: white;
       margin-bottom: 10px;
       font-size: 14px;
-
       span {
         margin: 0 10px;
         cursor: pointer;

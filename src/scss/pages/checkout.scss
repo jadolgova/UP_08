@@ -1,0 +1,119 @@
+.colonki{
+  display: flex;
+  gap: 300px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+  .title_colonka_one{
+    font-size: 32px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+    width: 450px; // Основная ширина инпутов
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 15px;
+      border: 1px solid #9f9f9f;
+      border-radius: 4px;
+      background-color: #fff;
+      box-sizing: border-box;
+    }
+  }
+  .name {
+    display: flex;
+    gap: 20px;
+    width: 450px;
+
+    .form-group {
+      width: calc(50% - 10px);
+    }
+  }
+  option{
+    color: #8f8f8f;
+  }
+  .optional {
+    color: black;
+  }
+  .colonka_two{
+    .price_okonch{
+      display: flex;
+      gap: 200px;
+      .gl_sl{
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+      .asgaard{
+        font-size: 16px;
+        color: #9F9F9F;
+        margin-bottom: 100px;
+      }
+      .mensh_text{
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .mensh_text_total{
+        padding-top: 15px;
+      }
+      .okonch_st{
+        font-size: 24px;
+        color: #B88E2F;
+        margin-bottom: 10px;
+      }
+    }
+    .poloskaa{
+      background-color: #9F9F9F;
+      width: 527px;
+      height: 1px;
+      display: flex;
+      align-items: center;
+    }
+    .direct{
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      .vibr_krug{
+        background-color: black;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: none;
+      }
+      .directt{
+        font-size: 16px;
+      }
+      .ser_krug{
+        background-color: white;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 1px solid #9F9F9F;
+      }
+      .ser_text{
+        color: #9f9f9f;
+        font-size: 16px;
+      }
+      .text_opis{
+        font-size: 16px;
+      }
+    }
+    .text_opis_ser{
+      font-size: 16px;
+      color: #9f9f9f;
+    }
+    .btn_direct{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+}
