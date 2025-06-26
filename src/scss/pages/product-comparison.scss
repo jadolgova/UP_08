@@ -1,0 +1,252 @@
+.product_inform {
+  display: flex;
+  gap: 170px;
+  margin-top: 80px;
+  justify-content: center;
+  .view-more-input {
+    display: inline-block;
+    margin: 20px 0;
+    width: 200px;
+    padding: 8px 0;
+    font-size: 16px;
+    color: #9f9f9f;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-image: linear-gradient(to right, black, black);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    &::placeholder {
+      color: #888;
+    }
+
+    &:focus {
+      border-bottom-color: transparent;
+      background-size: 100% 2px;
+    }
+
+    &:hover {
+      border-bottom-color: transparent;
+      background-size: 100% 2px;
+    }
+  }
+  .zag_inform {
+    font-size: 28px;
+  }
+
+  .zagolovok_cart_prod {
+    font-size: 24px;
+  }
+
+  .stoim {
+    font-size: 18px;
+  }
+
+  .colonka_cart {
+    display: flex;
+    gap: 170px;
+
+    .cart_one {
+      line-height: 15px;
+    }
+
+    .reyting {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      .reit {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .poloska {
+        width: 1px;
+        height: 30px;
+        background-color: #9f9f9f;
+      }
+
+      .review {
+        font-size: 11px;
+        color: #9f9f9f;
+      }
+    }
+  }
+
+  .colonka_select {
+    .product-selector {
+      max-width: 400px;
+
+      .selector-title {
+        margin-bottom: 12px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+      }
+
+      .select-wrapper {
+        position: relative;
+
+        .product-select {
+          width: 100%;
+          padding: 12px 16px;
+          font-size: 16px;
+          border-radius: 6px;
+          background-color: #B88E2F;
+          appearance: none;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          color: white;
+          border: none;
+
+          &:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px white;
+          }
+        }
+
+        .select-arrow {
+          position: absolute;
+          top: 50%;
+          right: 15px;
+          transform: translateY(-50%);
+          width: 0;
+          height: 0;
+          border-left: 6px solid transparent;
+          border-right: 6px solid transparent;
+          border-top: 8px solid white;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}
+.custom-border-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 110px;
+  font-size: 20px;
+  max-width: 1200px;
+  table-layout: fixed;
+}
+.custom-border-table th,
+.custom-border-table td {
+  padding: 12px;
+  padding-left: 150px;
+  width: 33.33%;
+  box-sizing: border-box;
+}
+.custom-border-table th {
+  background-color: white;
+  text-align: left;
+  font-size: 28px;
+  padding-top: 100px;
+}
+
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding-left: 260px;
+  max-width: 1200px;
+  padding-top: 50px;
+}
+
+.sidebar {
+  width: 240px;
+}
+
+.sidebar-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.view-more {
+  display: inline-block;
+  margin-top: 20px;
+  color: #727272;
+  text-decoration: underline ;
+  font-size: 24px;
+}
+
+.product-list {
+  display: flex;
+  gap: 40px;
+}
+
+.product-card {
+  width: 300px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+  font-size: 22px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.OutdoorSofa img{
+  height: 177px;
+  width: 280px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+  color: black;
+}
+
+.rating {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+.review {
+  color: #888;
+  font-size: 16px;
+  margin-left: 14px;
+}
+
+.stars {
+  color: var(--temnbour--color);
+  font-size: 28px;
+}
+
+.add-product {
+  margin-left: auto;
+  text-align: left;
+}
+
+.add-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.choose-product {
+  background-color: var(--temnbour--color);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer{
+  transform: translateY(-200px);
+}
