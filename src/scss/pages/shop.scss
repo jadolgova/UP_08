@@ -1,5 +1,5 @@
 .block_filtr{
-  width: 1650px;
+  width: 1600px;
   height: 100px;
   background-color: #FFF3E3;
   display: flex;
@@ -8,7 +8,7 @@
   .block_filtr_one{
     display: flex;
     gap: 50px;
-    align-items: center; /* Вертикальное выравнивание (по центру) */
+    align-items: center;
     justify-content: flex-start;
     .poloska{
       width: 1px;
@@ -22,7 +22,7 @@
   .block_filter_two{
     display: flex;
     gap: 50px;
-    align-items: center; /* Вертикальное выравнивание (по центру) */
+    align-items: center;
     justify-content: flex-start;
     font-size: 20px;
     .sort {
@@ -43,6 +43,10 @@
 .cart_shop{
   margin-left: 150px;
   margin-top: 30px;
+  a{
+    text-decoration: none;
+    color: black;
+  }
   .shop_cartochki{
     display: flex;
     gap: 90px;

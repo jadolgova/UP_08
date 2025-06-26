@@ -2,7 +2,7 @@
   display: flex;
   gap: 200px;
   padding-left: 100px;
-  border-top: 2px solid #cccccc;
+  border-top: 1px solid #cccccc;
   padding-top: 50px;
   margin-top: 20px;
 ;
@@ -76,6 +76,6 @@
   .text_foot{
     font-size: 16px;
     margin-left: 100px;
-    padding-top: 100px;
+    transform: translateY(200px);
   }
 }

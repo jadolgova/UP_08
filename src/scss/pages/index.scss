@@ -51,6 +51,10 @@
   margin-top: 30px;
 }
 .block_cart_products{
+  a{
+    text-decoration: none;
+    color: black;
+  }
   .gl_text{
     font-size: 40px;
     text-align: center;
@@ -188,4 +192,7 @@ footer{
     font-size: 16px;
     margin-left: 100px;
   }
+}
+footer{
+  margin-top: 200px;
 }

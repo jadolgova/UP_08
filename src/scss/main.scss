@@ -21,6 +21,8 @@
 
 @use 'pages/index';
 @use 'pages/shop';
+@use 'pages/asgaard';
+@use 'pages/product-comparison';
 
 body {
   background-color: var(--main-color);
